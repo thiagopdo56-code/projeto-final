@@ -1,0 +1,70 @@
+/* cores */
+:root {
+    font-family: Manrope, Arial, sans-serif;
+    color: rgb(6, 28, 92);
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    --blue: #0a2e8f;
+    --navy: #061c5c;
+    --pale: #eaf0fb;
+    --line: #d6e0f2;
+    --white: #fff;
+    background: rgb(255, 255, 255);
+    font-synthesis: none;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+/* fechamento cores */
+
+/* inicio header*/
+
+.header {
+    display: flex;
+}
+/* imagem/titulo */
+.logoimg {
+    align-items: center;
+    display:flex;
+    gap: 50px;
+    color: #0a2e8f;
+}
+.logoimg img{
+    width: 50px;
+}
+/* fechamento imagem/titulo */
+
+
+
+/* sub items ex: projeto, novidades*/
+
+
+.sub-items {
+    background-color:var(--white);
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+
+.sub-items button{
+    color: var(--white);
+    background-color: #0a2e8f;
+    border-radius: 8%;
+    border-color: #0a2e8f;
+    padding: 10px 40px;
+  
+}
+
+
+
+/* fim do header */
+
+
+
+.container {
+    background-image: #061c5c;
+}
